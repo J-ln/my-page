@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth" style={{ scrollBehavior: "smooth" }}>
       <body className={jost.variable + " " + roboto.variable}>
-        {/* <StarsCanvas /> */}
+        <StarsCanvas />
         <NavBar />
         {children}
       </body>
